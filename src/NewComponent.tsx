@@ -10,7 +10,7 @@ type CarsType = {
 
 export const NewComponent = (props: NewComponentPropsType) => {
     return (
-        <table>
+        <table width="50%" cellPadding="0" border={1}>
             {props.topCars.map((el,id)=>{
                 return(<tr key={id}>
                     <th>{el.manufacturer}</th>
