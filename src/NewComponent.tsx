@@ -2,7 +2,10 @@ type NewComponentPropsType = {
     students: Array<StudentType>
 }
 
-
+type StudentType = {
+    id: number
+    name: string
+    age: number
 }
 
 
