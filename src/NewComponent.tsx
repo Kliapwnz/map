@@ -10,7 +10,7 @@ type StudentType = {
 
 
 export const NewComponent = (props: NewComponentPropsType) => {
-    debugger
+
     return (
         <ul>
             {props.students.map((el) => {
