@@ -1,23 +1,16 @@
 type NewComponentPropsType = {
-    students: Array<StudentType>
+    topCars: Array<CarsType>
 }
 
-type StudentType = {
-    id: number
-    name: string
-    age: number
+type CarsType = {
+    manufacturer: string
+    model: string
 }
 
 
 export const NewComponent = (props: NewComponentPropsType) => {
-
     return (
-        <ul>
-            {props.students.map((el) => {
-                return (
-                    <li key={el.id}><span>{el.name}</span><span> age: {el.age}</span></li>
-                )
-            })}
-        </ul>
+        <div>1</div>
+
     )
 }
