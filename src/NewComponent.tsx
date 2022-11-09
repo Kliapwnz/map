@@ -17,9 +17,6 @@ export const NewComponent = (props: NewComponentPropsType) => {
                     <li key={el.id}><span>{el.name}</span><span> age: {el.age}</span></li>
                 )
             })}
-            <li></li>
-            <li></li>
-            <li></li>
         </ul>
     )
 }
